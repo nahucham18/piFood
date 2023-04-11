@@ -6,7 +6,6 @@ module.exports = (sequielize) => {
             type: DataTypes.INTEGER,
             primaryKey: true,
             autoIncrement: true,
-            serial: true,
         },
         name:{
             type: DataTypes.INTEGER,
